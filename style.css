@@ -1,0 +1,185 @@
+.lorem ul li::before {
+  display: inline-block;
+  margin: 3px;
+  background-size: 1rem 1rem;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  background-image: url(./images/quotes.png);
+}
+
+.lorem ul li::after {
+  display: inline-block;
+  margin: 3px;
+  background-size: 1rem 1rem;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  background-image: url(./images/quotes.png);
+}
+
+.a1 {
+  color: red;
+  text-decoration: none;
+  background-color: rgb(78, 247, 131);
+  text-align: center;
+  display: table;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid rgba(56, 118, 34, 0.696);
+}
+
+.a1:hover {
+  background-color: coral;
+  border: 5px solid rgba(234, 209, 20, 0.985);
+  color: black;
+  transition-duration: 1s, 1s;
+}
+
+/*  */
+
+.file ul li {
+  margin: 40px;
+}
+
+.file1::after {
+  display: inline-block;
+  margin: 10px;
+  background-size: 3rem 3rem;
+  width: 3rem;
+  height: 3rem;
+  content: "";
+  background-image: url(./images/pdf.png);
+}
+
+li.file1::after {
+  margin-bottom: -20px;
+}
+
+.file2::after {
+  display: inline-block;
+  margin: 10px;
+  background-size: 3rem 3rem;
+  width: 3rem;
+  height: 3rem;
+  content: "";
+  background-image: url(./images/ms-excel.png);
+}
+
+li.file2::after {
+  margin-bottom: -20px;
+}
+
+.file3::after {
+  display: inline-block;
+  margin: 10px;
+  background-size: 3rem 3rem;
+  width: 3rem;
+  height: 3rem;
+  content: "";
+  background-image: url(./images/ms-word.png);
+}
+
+li.file3::after {
+  margin-bottom: -20px;
+}
+
+.file4::after {
+  display: inline-block;
+  margin: 10px;
+  background-size: 3rem 3rem;
+  width: 3rem;
+  height: 3rem;
+  content: "";
+  background-image: url(./images/ms-word.png);
+}
+
+li.file4::after {
+  margin-bottom: -20px;
+}
+
+.file5::after {
+  display: inline-block;
+  margin: 10px;
+  background-size: 3rem 3rem;
+  width: 3rem;
+  height: 3rem;
+  content: "";
+  background-image: url(./images/pdf.png);
+}
+
+li.file5::after {
+  margin-bottom: -20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*  */
+
+.box1 {
+  padding: 2rem 2rem;
+  background: linear-gradient(90deg, #2aebeb, transparent) #2196f3;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 2s;
+
+  /* background: #FB0C59;
+    background: -moz-linear-gradient(left, #FB0C59 0%, #1C6EA4 54%, #17F1A9 100%);
+    background: -webkit-linear-gradient(left, #FB0C59 0%, #1C6EA4 54%, #17F1A9 100%);
+    background: linear-gradient(to right, #FB0C59 0%, #1C6EA4 54%, #17F1A9 100%);
+    /* background: linear-gradient(to right, orange, #8e2de2); */
+}
+
+.box2 {
+  /* background: #7700FB;
+  background: -moz-linear-gradient(left, #7700FB 0%, #1C6EA4 45%, #01F112 100%);
+  background: -webkit-linear-gradient(left, #7700FB 0%, #1C6EA4 45%, #01F112 100%);
+  background: linear-gradient(to right, #7700FB 0%, #1C6EA4 45%, #01F112 100%); */
+  padding: 20px;
+  background: linear-gradient(90deg, #bd1f0d, transparent) #2196f3;
+  transition: background-color 2s;
+  border-radius: 10px;
+}
+
+.box1:hover,
+.box1:focus {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #8422a1;
+}
+
+.box2:hover,
+.box2:focus {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #01f112;
+}
+
+.jump > a {
+  margin-bottom: 10px;
+}
+
+.box1 > ul {
+  background-color: white;
+  margin: 0 -20px;
+  text-decoration: none;
+}
+
+.box2 > p {
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+p {
+  margin-right: -20px;
+}
+
+h2 {
+  /* background-image: linear-gradient(red, black); */
+  /* background: linear-gradient(70deg, blue, pink); */
+}
